@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Prodcuct Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+        <div class="logo-container">
+            <img src="https://i.pinimg.com/736x/b2/38/01/b238018c0a4861898f3f44f78ce3eb2c.jpg"
+            alt="logo"
+          
+            id="header-img"
+            />
+
+            <span class="the-product">Legendary Books</span>
+
+            <ul class="nav-links">
+               <li><a href="#features" class="nav-link">Features</a></li>
+               <li><a href="#audio" class="nav-link">Free Audio Book </a></li>
+               <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+  </header> 
+
+  <section id="email-section">
+
+    <h2>All time BestSellers</h2>
+
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input 
+        
+        id="email"
+        type="email" 
+        required 
+        placeholder="Enter your email address" 
+        name="email"
+        />
+
+        <input type="Submit" id="submit" value="Get Started"
+
+    </form>
+  </section>
+
+  <section id="features">
+    <div class="feature">
+        <i class="ri-file-paper-2-fill ri-4x icon"></i>
+        <div>
+            <h2>
+                Premium Materials
+            </h2>
+
+            <p>
+                We use the Best Paper in our Books which is sourced locally. This will increase the longevity of your Purchase.
+            </p>
+        </div>
+    </div>
+    <div class="feature">
+        <i class="ri-truck-line ri-4x icon"></i>
+        <div>
+        <h2>1 Day Shipping</h2>
+        <p>
+            We make sure you receive your classic Books as soon as possible so you can start reading your favourite book immediately. We also provide free return Facility if you are not satisfied.
+        </p>
+    </div>
+    </div>
+    <div class="feature">
+        <i class="ri-book-open-line ri-4x icon "></i>
+        <div>
+        <h2> High Quality Books</h2>
+        <p>
+            We make sure to only provide awesome classic books. We guarantee that the book you buy is one of the top classic books in the market.
+        </p>
+    </div>
+    </div>
+
+  </section>
+
+  <section id="audio"> 
+    
+    <iframe 
+    id="video"
+     height="500" src="https://www.youtube.com/embed/x0Et1T8OsYE?si=lwRBgEhDmEWml9Po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+  </section>
+
+  <section id="for_sale">
+    <h2>For Sale</h2>
+
+    <div class="product-cards">
+        <div class="card">
+            <div class="product-image product1"></div>
+            <div class="inner-card">
+            <div class="author">Paulo Coelho</div>
+            <h1 class="header">The Alchemist</h1>
+            <p class="content">
+                Novel has inspired a devoted following around the world. This story, dazzling in its powerful simplicity and inspiring wisdom.
+            </p>
+            <div class="flex">
+                <p class="main-price">289₹</p>
+                <p class="old-price">350₹</p>
+            </div>
+            <button class="add">
+                <p style="margin-left:5px">Add to Cart</p>
+            </button>
+        </div>
+        </div>
+
+
+
+        <div class="card">
+        
+            <div class="product-image product2"></div>
+        <div class="inner-card">
+        <div class="author">BARDUGO LEIGH</div>
+        <h1 class="header">Six of Crows (Collectors Edition)</h1>
+        <p class="content">Six dangerous outcasts. One impossible heist. Fast, thrilling heist fantasy.</p>
+        <div class="flex">
+            <p class="main-price">708₹</p>
+            <p class="old-price">1299₹</p>
+        </div>
+        <button class="add">
+            <p style="margin-left:5px">Add to Cart</p>
+        </button>
+    </div>
+</div>
+
+
+        <div class="card">
+            <div class="product-image product3"></div>
+            <div class="inner-card">
+            <div class="author">Rhonda Byrne</div>
+            <h1 class="header">The Secret [Hardcover]</h1>
+            <p class="content">
+                Wisdom from modern-day teachers who have used it to achieve health, wealth, and happiness.
+            </p>
+            <div class="flex">
+                <p class="main-price">499₹</p>
+                <p class="old-price">990₹</p>
+            </div>
+            <button class="add">
+                <p style="margin-left:5px">Add to Cart</p>
+            </button>
+        </div>
+        </div>
+    </div>
+  </section>
+
+</body>
+</html>
